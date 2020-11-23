@@ -15,6 +15,10 @@ namespace Cursova
         public Form1()
         {
             InitializeComponent();
+            
+               
         }
+
+        
     }
 }
