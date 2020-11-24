@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Cursova
 {
-    class Question
+    public class Question
     {
+        public List<Question> questions;
     }
 }
