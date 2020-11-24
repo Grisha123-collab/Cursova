@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cursova
 {
+    [Serializable]
     public class Question
     {
         public List<Question> questions;

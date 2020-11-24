@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cursova
 {
+    [Serializable]
     public class Test
     {
         public string author { get; set; }
@@ -21,6 +22,10 @@ namespace Cursova
             StartTest = startTest;
             Rating = rating;
             EndTest = endTest;
+        }
+        public void AddTest()
+        {
+
         }
 
     }
